@@ -80,7 +80,7 @@ for elms in flist:
     inglist.append(elms.text)
 print("All account who you follow but don't follow you back:-")
 for name in inglist:
-    if(name not in erlist ):
+    if name not in erlist :
         print(name)
 
 driver.quit()
